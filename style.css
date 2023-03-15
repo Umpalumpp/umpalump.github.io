@@ -1,31 +1,93 @@
-body{
-    margin: 0;
-    padding: 0;
-    border: 0;
+body {
+  font-family: "Comic Sans MS", cursive;
+   background-size: cover;
+   background-color:#7599e1;
 }
-body{
-    background-color:#f8f8f8;
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
-.container{
-    font-style: italic;
-    color: #000000;
+
+.accent{
+ color: DeepBlue; 
+ text-shadow: none;
+ font-size: 60px;
+}
+
+.accent-mini {
+ font-family: "Georgia", serif;
+ color: #a7c3fb;
+ font-size: 40px;
+}
+
+.page-header{
+   display: grid;
+   grid-template-columns: 1fr 260px;
+   padding-left: 20px;
+   padding-bottom:70px ;
+   padding-top:30px ;
+   padding-right: 20px;
+}
+
+.page-header {
+    padding: 15px 15px;
     font-size: 20px;
+    background: #3dbeff;
 }
-.subheading{
-    font-size: 18px;
-    font-seight: 400;
-    background color: #eaeaea;
+
+.quote{
+   width: 160px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/1.png);
+    background-size: cover;
+    background-position: center;
+  
+   
 }
-.subhead1{
-    font-size: 14px;
-    line-height: 16px;
-    background color: #707070;
-    font-style: italic;
+
+li{
+list-style-type: none;
 }
-.subhead2{
-    font-size: 16px;
-    font-weight: 400;
-    background color: #484343;
-    line-height: 24px;
-    text-align: left;
+
+.days-list{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+   padding-left: 20px;
+   row-gap:30px;
+   padding-bottom:40px;
+   padding-top:25px;
+   padding-right:20px;
+  
 }
+
+.day {
+   padding-left: 20px;
+   padding-bottom:10px ;
+   padding-top:10px ;
+   padding-right: 10px;
+   background-color: #f3ab58;
+}
+
+.page-footer {
+   color: #ffffff
+   padding-left: 20px;
+   padding-bottom:20px ;
+   padding-top:10px ;
+   background-color: rgb(95, 111, 160);
+   text-align: center;
+
+ }
+
+ 
