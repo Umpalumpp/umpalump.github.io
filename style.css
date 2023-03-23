@@ -1,91 +1,31 @@
 body {
-  font-family: "Western";
-   background-size: cover;
-   background-color:#7599e1;
+  font-family:sans-serif;
+  background-color: rgba(209,233,189);
+  margin: 0%;
+  padding: 0%;
+  font-size: 25px;
+
+}
+
+lu {
+  list-style-type: none
 }
 
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  font-family: cursive;
 }
 
-.accent{
- color: DeepBlue; 
- text-shadow: none;
- font-size: 60px;
+
+footer{
+  display: block;
+  background-color: #e97d2a;
+  color: white
 }
 
-.accent-mini {
- font-family: "Georgia", serif;
- color: #a7c3fb;
- font-size: 40px;
+a {
+color: rgb(125, 56, 121);
 }
 
-.page-header{
-   display: grid;
-   grid-template-columns: 1fr 260px;
-   padding-left: 20px;
-   padding-bottom:70px ;
-   padding-top:30px ;
-   padding-right: 20px;
+.container {
+  text-align: center;
 }
-
-.page-header {
-    padding: 15px 15px;
-    font-size: 20px;
-    background: #3dbeff;
-}
-
-.quote{
-   width: 160px;
-    height: 130px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-image: url(img/1.png);
-    background-size: cover;
-    background-position: center;
-  
-   
-}
-
-li{
-list-style-type: none;
-}
-
-.days-list{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   column-gap: 20px;
-   padding-left: 20px;
-   row-gap:30px;
-   padding-bottom:40px;
-   padding-top:25px;
-   padding-right:20px;
-  
-}
-
-.day {
-   padding-left: 20px;
-   padding-bottom:10px ;
-   padding-top:10px ;
-   padding-right: 10px;
-   background-color: #f3ab58;
-}
-
-.page-footer {
-   color: #ffffff
-   padding-left: 20px;
-   padding-bottom:20px ;
-   padding-top:10px ;
-   background-color: rgb(95, 111, 160);
-   text-align: center;
-
- }
